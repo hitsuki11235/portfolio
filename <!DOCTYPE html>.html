@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Banner Design Portfolio</h1>
+    <p>Figma / Canvaで制作したバナーデザインです。</p>
+  </header>
+
+  <main class="portfolio-grid">
+
+    <div class="work-card" data-title="桃フラペチーノバナー" data-desc="架空カフェの期間限定商品の告知バナーです。果肉感と夏らしい爽やかさを意識して制作しました。" data-img="peach.png">
+      <img src="peach.png" alt="桃フラペチーノバナー">
+    </div>
+
+    <div class="work-card" data-title="クールビズバナー" data-desc="20代社会人女性向けのクールビズ特集バナーです。清潔感と涼しげなブルー系配色を意識しました。" data-img="coolbiz.png">
+      <img src="coolbiz1.png" alt="クールビズバナー">
+    </div>
+
+    <div class="work-card" data-title="カフェバナー" data-desc="" data-img="cafe.png">
+      <img src="coolbiz2.png" alt="カフェバナー">
+    </div>
+
+    <div class="work-card" data-title="コスメバナー" data-desc="美容・コスメ系商品の広告バナーです。女性向けの柔らかい雰囲気と視認性を意識しました。" data-img="cosme.png">
+      <img src="knife.png" alt="コスメバナー">
+    </div>
+
+    <div class="work-card" data-title="アロマオイルバナー" data-desc="架空のアロマブランドを想定した広告バナーです。天然由来・無添加・ギフト需要を意識して制作しました。" data-img="aroma.png">
+      <img src="aroma.png" alt="アロマオイルバナー">
+    </div>
+
+    <div class="work-card" data-title="商品広告バナー" data-desc="ECサイト向けの商品広告バナーです。商品の特徴が一目で伝わるように、強い訴求と視認性を意識しました。" data-img="product.png">
+      <img src="product.png" alt="商品広告バナー">
+    </div>
+
+  </main>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">×</button>
+      <img id="modalImg" src="" alt="">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
