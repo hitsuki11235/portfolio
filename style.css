@@ -107,12 +107,12 @@ body {
 }
 
 /* スマホ対応 */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
   }
-}
+} */
 
 @media (max-width: 480px) {
   .portfolio-grid {
